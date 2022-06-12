@@ -1,8 +1,11 @@
 # pifi-repeated: setting up RPi with TP-Link T4U (rtl8812au)
 
 The information below was collected here:
+
 https://github.com/morrownr/8812au-20210629
+
 https://github.com/swkim01/waveshare-dtoverlays
+
 https://spotpear.com/index/study/detail/id/141.html
 
 When using 4" LCD touchscreen may not behave properly. To fix this, the following worked for me:
