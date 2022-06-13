@@ -38,4 +38,7 @@ cd ~/src/88x2bu-20210702
 ./ARM_RPI.sh # On ARM 32 bit
 sudo ./install-driver.sh # install driver with dkms
 ```
-Useful docs here: https://github.com/morrownr/8812au-20210629/tree/main/docs
+Then follow this instruction:
+https://pimylifeup.com/raspberry-pi-wifi-extender/
+
+with `nohook wpa_supplicant` in `step 6`.
