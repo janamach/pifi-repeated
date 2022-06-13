@@ -51,3 +51,10 @@ Then follow this instruction:
 https://pimylifeup.com/raspberry-pi-wifi-extender/
 
 with `nohook wpa_supplicant` in `step 6`.
+
+## Issues
+
+`hostapd` does not start on boot, workaround:
+```
+echo "sudo service hostapd start" >> .profile 
+```
