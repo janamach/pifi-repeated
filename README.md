@@ -54,7 +54,13 @@ with `nohook wpa_supplicant` in `step 6`.
 
 ## Issues
 
-`hostapd` does not start on boot, workaround:
+`hostapd` and `dnsmasq` do not seem to start on boot on Raspberry Pi 3, workaround:
 ```
-echo "sudo service hostapd start" >> .profile 
+crontab -e
+```
+and
+
+```
+@reboot sleep 10 && sudo service hostapd start
+@reboot sleep 20 && sudo service dnsmasq start
 ```
