@@ -1,8 +1,8 @@
-# pifi-repeated: setting up RPi with TP-Link T4U (rtl8812au)
+# pifi-repeated: setting up RPi with TP-Link T4U (rtl88x2bu)
 
 The information below was collected here:
 
-https://github.com/morrownr/8812au-20210629
+https://github.com/morrownr/88x2bu-20210702.git
 
 https://github.com/swkim01/waveshare-dtoverlays
 
