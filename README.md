@@ -23,6 +23,14 @@ sudo apt install -y numlockx
 echo "numlockx on" >> .profile
 ```
 
+Disable the native wifi and bluetooth by adding the following to config.txt:
+
+```
+dtoverlay=pi3-disable-wifi
+dtoverlay=pi3-disable-bt
+```
+
+
 Driver installation:
 ```
 sudo apt install -y raspberrypi-kernel-headers bc build-essential dkms git numlockx
