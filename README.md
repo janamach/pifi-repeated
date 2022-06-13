@@ -33,7 +33,8 @@ dtoverlay=pi3-disable-bt
 
 Driver installation:
 ```
-sudo apt install -y raspberrypi-kernel-headers bc build-essential dkms git numlockx
+sudo apt update
+sudo apt install -y raspberrypi-kernel-headers bc build-essential dkms git numlockx dnsmasq hostapd
 
 mkdir ~/src
 cd ~/src
