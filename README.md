@@ -29,8 +29,9 @@ sudo apt install -y raspberrypi-kernel-headers bc build-essential dkms git numlo
 
 mkdir ~/src
 cd ~/src
-git clone https://github.com/morrownr/8812au-20210629.git
-cd ~/src/8812au-20210629
+git clone https://github.com/morrownr/88x2bu-20210702.git
+
+cd ~/src/88x2bu-20210702
 
 ./cmode-on.sh # Enable concurrent mode for wifi repeater
 
