@@ -54,6 +54,12 @@ with `nohook wpa_supplicant` in `step 6`.
 
 ## Issues
 
+After following the instruction, `Failed to start hostapd.service: Unit hostapd.service is masked.` is possible. Then do:
+
+```
+sudo systemctl unmask hostapd
+```
+
 `hostapd` and `dnsmasq` do not seem to start on boot on Raspberry Pi 3, workaround:
 ```
 crontab -e
